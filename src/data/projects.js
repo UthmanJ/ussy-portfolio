@@ -9,6 +9,7 @@ export const strip = [
   ['Resource Locator', 'full-stack map app'],
   ['IoT Security Dashboard', 'live demo'],
   ['PoultryTrackPro', 'AI farm records'],
+    ['ScamCheck', 'mobile security app'],
 ]
 
 export const store = {
@@ -90,5 +91,12 @@ export const more = [
     name: 'NITT Attendance System',
     desc: 'Coordinated the full lifecycle from requirements to deployment. Structured testing and query optimisation cut bug reports by 30% and improved database efficiency by 35%.',
     tags: ['SDLC', 'Testing', 'Databases'],
+  },
+    {
+    kind: 'Security · Mobile',
+    name: 'ScamCheck',
+    desc: 'A phone app that scores suspicious links and messages from 0 to 100 and explains every warning sign, with local history and guides to common scams. Runs entirely on the device.',
+    tags: ['React Native', 'Expo', 'Security'],
+    repo: gh('scamcheck'),
   },
 ]
