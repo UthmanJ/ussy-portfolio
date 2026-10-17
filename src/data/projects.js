@@ -9,7 +9,8 @@ export const strip = [
   ['Resource Locator', 'full-stack map app'],
   ['IoT Security Dashboard', 'live demo'],
   ['PoultryTrackPro', 'AI farm records'],
-    ['ScamCheck', 'mobile security app'],
+  ['ScamCheck', 'mobile security app'],
+  ['SmartAttend', 'QR + GPS attendance'],
 ]
 
 export const store = {
@@ -98,5 +99,12 @@ export const more = [
     desc: 'A phone app that scores suspicious links and messages from 0 to 100 and explains every warning sign, with local history and guides to common scams. Runs entirely on the device.',
     tags: ['React Native', 'Expo', 'Security'],
     repo: gh('scamcheck'),
+  },
+    {
+    kind: 'Mobile · University project',
+    name: 'SmartAttend',
+    desc: 'A mobile attendance system for lectures. Lecturers generate a time-limited QR code for each class, and students scan it while the app checks their GPS location is within 500 m of the venue. Records are stored in Firebase and exported as PDF attendance sheets.',
+    tags: ['React Native', 'Expo', 'Firebase', 'Geofencing'],
+    repo: gh('SmartAttendance'),
   },
 ]
